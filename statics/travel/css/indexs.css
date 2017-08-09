@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.banner_box .wrap{position:absolute;top:0;left:50%;margin-left:-560px;padding-top:459px;overflow:visible}
+.banner_box{position:relative;height:518px;}
+.banner_box .banner{width:100%;height:459px;}
+.banner_box .banner li{height:459px;width:100%;position:absolute;left:0;top:0;}
+.banner_box .banner .current{display:block;}
+.banner_box .banner .banner1{background:url(../trave/image/banner1.jpg) no-repeat 50% 0;}
+.banner_box .prev,
+.banner_box .next{width:58px;height:57px;position:absolute;top:215px;overflow:hidden;zoom:1;display:block;text-indent:-999px}
+.banner_box .prev{left:-90px;background:url(../image/banner_arrow_l.png) no-repeat left top;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/banner_arrow_l.png',sizingMethod='crop');}
+.banner_box .next{right:-90px;background:url(../image/banner_arrow_r.png) no-repeat left top;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/banner_arrow_l.png',sizingMethod='crop');}
+.banner_count {text-align:center;}
+.banner_count a{background:url(../image/banner_dot.png) no-repeat;width:10px;height:10px;font-size:0px;display:inline-block;text-indent:-9999px;zoom:1;}
+.banner_count a.current{background-position:0 -10px;}
+
+
+.g_bd {padding-bottom:60px;}
+.g_bd .wrap{border-top:1px solid #d6e0ef;}
+.index_mod{width:340px;height:317px;float:left;display:inline;padding-top:65px;}
+.index_mod h2{text-indent:-9999px;}
+.index_mod p{font-family:\5FAE\8F6F\96C5\9ED1,arial;font-size:14px;color:#777;line-height:30px;}
+.index_mod li,
+.index_mod a{color:#aaa;font-size:12px;}
+.index_mod a:hover{color:#e20a17;}
+.mod_about{background:url(../travel/image/mod_about.jpg) }
+.mod_concept{background:url(../travel/image/mod_concept.jpg);margin:0 50px;}
+.mod_hire{background:url(../travel/image/mod_hire.jpg) }
+.mod_about ul{margin-top:15px;}
+.mod_about li {height:20px;}
+.mod_about .g_ico_new{margin:-5px 0 0 5px;}
+.mod_hire ul{margin-top:17px;}
+.mod_hire li{line-height:25px;}
+
+a {text-transform:none;text-decoration:none;} 
+a:hover {text-decoration:none;color:#ff0000;} 
