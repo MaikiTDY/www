@@ -27,7 +27,7 @@ return array(
 'js_path' => 'http://120.77.174.151/statics/js/', //CDN JS
 'css_path' => 'http://120.77.174.151/statics/css/', //CDN CSS
 'img_path' => 'http://120.77.174.151/statics/images/', //CDN img
-'app_path' => 'http://localhost/',//动态域名配置地址
+'app_path' => 'http://120.77.174.151/',//动态域名配置地址
 
 'charset' => 'utf-8', //网站字符集
 'timezone' => 'Etc/GMT-8', //网站时区（只对php 5.1以上版本有效），Etc/GMT-8 实际表示的是 GMT+8
@@ -43,8 +43,8 @@ return array(
 'execution_sql' => 0, //EXECUTION_SQL
 
 'phpsso' => '1',	//是否使用phpsso
-'phpsso_appid' => '1',	//应用id	
-'phpsso_api_url' => 'http://localhost/phpsso_server',	//接口地址
+'phpsso_appid' => '1',	//应用id
+'phpsso_api_url' => 'http://120.77.174.151/phpsso_server',	//接口地址
 'phpsso_auth_key' => 'xQGPvsDOq7znv99t4FG9YdelDCo5o5Yq', //加密密钥
 'phpsso_version' => '1', //phpsso版本
 
